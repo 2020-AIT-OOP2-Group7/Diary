@@ -1,12 +1,9 @@
 from diaries.DiarySample import DiarySample
-from diaries.DiaryKame import Diarykame
+from diaries.DiaryKame import DiaryKame
 
-diaries = [DiarySample(), ]
+diaries = [DiarySample(),DiaryKame()]
 
 for d in diaries:
-    diaries = [DiarySample(),
-    Diarykame(),
-    ]
     print("---------------------------------")
     print(d.get_date())
     print(d.get_summary())
