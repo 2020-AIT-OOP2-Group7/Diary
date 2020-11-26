@@ -2,6 +2,9 @@ from abc import ABC, abstractmethod
 
 
 class AbstractDiary(ABC):
+
+    diaries = [DiarySample(), ]
+    
     @abstractmethod
     def get_date(self):
         pass
