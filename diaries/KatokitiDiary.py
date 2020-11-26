@@ -1,7 +1,7 @@
 from diaries.AbstractDiary import AbstractDiary
 
 
-class AminoDiary(AbstractDiary):
+class KatokitiDiary(AbstractDiary):
 
     def get_date(self):
         return "2020-11-26"
