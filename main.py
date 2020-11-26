@@ -1,3 +1,4 @@
+from diaries.AbstractDiary import AbstractDiary
 
 from diaries.DiarySample import DiarySample
 from diaries.DiaryKame import DiaryKame
